@@ -86,11 +86,11 @@ export default {
     redisPrefix: 'docker',
   },
   aws_s3: {
-    region: 'sa-east-1',
-    access_key_id: null,  // Typically a string, but might be null if not set
-    secret_key: null,     // Typically a string, but might be null if not set
-    defaultBucketName: null, // Typically a string, but might be null if not set
-    endpoint: null,       // Typically a string, but might be null if not set
-    forcePathStyle: null, // Typically a boolean, but might be null if not set
+    region: 'us-east-1',
+    access_key_id: '',  // Typically a string, but might be null if not set
+    secret_key:'',     // Typically a string, but might be null if not set
+    defaultBucketName: '', // Typically a string, but might be null if not set
+    endpoint: '',       // Typically a string, but might be null if not set
+    forcePathStyle: false, // Typically a boolean, but might be null if not set
   },
 };
