@@ -1,7 +1,7 @@
 export default {
   secretKey: 'THISISMYSECURETOKEN',
   host: 'http://localhost',
-  port: '21465',
+  port: 21465,
   deviceName: 'WppConnect',
   poweredBy: 'WPPConnect-Server',
   startAllSession: true,
