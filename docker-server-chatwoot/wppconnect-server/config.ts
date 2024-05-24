@@ -22,6 +22,7 @@ export default {
     onRevokedMessage: true,
     onLabelUpdated: true,
     onSelfMessage: false,
+    ignore: [],
   },
   websocket: {
     autoDownload: false,
