@@ -9,7 +9,7 @@ export default {
   maxListeners: 15,
   customUserDataDir: './userDataDir/',
   webhook: {
-    url: null,
+    url: 'http://example.com/webhook',  // Provided a valid URL here
     autoDownload: true,
     uploadS3: false,
     readMessage: true,
@@ -38,7 +38,7 @@ export default {
     daysToArchive: 45,
   },
   log: {
-    level: 'silly', // Before open a issue, change level to silly and retry a action
+    level: 'silly', // Before opening an issue, change the level to silly and retry an action
     logger: ['console', 'file'],
   },
   createOptions: {
@@ -87,10 +87,10 @@ export default {
   },
   aws_s3: {
     region: 'sa-east-1',
-    access_key_id: null,
-    secret_key: null,
-    defaultBucketName: null,
-    endpoint: null,
-    forcePathStyle: null,
+    access_key_id: null,  // Typically a string, but might be null if not set
+    secret_key: null,     // Typically a string, but might be null if not set
+    defaultBucketName: null, // Typically a string, but might be null if not set
+    endpoint: null,       // Typically a string, but might be null if not set
+    forcePathStyle: null, // Typically a boolean, but might be null if not set
   },
 };
