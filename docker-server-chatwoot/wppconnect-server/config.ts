@@ -82,7 +82,7 @@ export default {
     redisHost: 'localhost',
     redisPort: 6379,
     redisPassword: '',
-    redisDb: 0,
+    redisDb: 'redis',
     redisPrefix: 'docker',
   },
   aws_s3: {
